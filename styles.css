@@ -24,17 +24,18 @@ h1{
 }
 
 .body1 {
-    padding: 60px 10vw;
+    padding: 40vh 10vw;
     display: flex;
     flex: 1;
+    gap: 2vw;
 }
 
 .body1 .left {
-    width: 40vw;
+    width: 39vw;
 }
 
 .body1 img {
-    width: 40vw;
+    width: 39vw;
     height: auto;
 }
 
@@ -68,6 +69,17 @@ button {
     width: 90px;
 }
 
+.body2 {
+    padding: 25vh 0px;
+}
+.body2 h2 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
 .l-to-r-contents {
     display: flex;
     flex-direction: row;
@@ -75,8 +87,15 @@ button {
     gap: 5vw;
 }
 
+.l-to-r-contents .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .l-to-r-contents img {
-    width: 10vw;
+    width: 100px;
     height: auto;
     border: solid 2px  #3882F6;
     border-radius: 12px;
@@ -87,22 +106,9 @@ button {
     width: 10vw;
 }
 
-
-.body2 {
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
-.body2 h2 {
-    color: #1F2937;
-    font-weight: 900;
-    font-size: 36px;
-    text-align: center;
-    margin: 0px 0px 20px 0px;
-}
-
 .body3 {
     background-color: #E5E7EB;
-    padding: 60px 20vw;
+    padding: 20vh 20vw;
 }
 
 .body3 .quote {
@@ -119,7 +125,7 @@ button {
 .body4 {
     display: flex;
     flex: 1 0 auto;
-    padding: 60px 10vw;
+    padding: 100px 10vw;
     justify-content: center;
 }
 
