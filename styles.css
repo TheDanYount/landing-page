@@ -118,6 +118,7 @@ button {
 
 .body4 {
     display: flex;
+    flex: 1 0 auto;
     padding: 60px 10vw;
     justify-content: center;
 }
